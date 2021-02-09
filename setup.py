@@ -78,6 +78,7 @@ setup(
     long_description_content_type='text/markdown',
     ext_modules=[CMakeExtension('polyline2d')],
     cmdclass=dict(build_ext=CMakeBuild),
+    install_requires=['numpy'],
     zip_safe=False,
     classifiers=[
         'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
